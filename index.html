@@ -1,7 +1,30 @@
-<div class="slots">
-    <div class="reel"></div>
-    <div class="reel"></div>
-    <div class="reel"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slot Machine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🎰 Slot Machine</h1>
+
+<div class="slot-machine">
+
+<div class="reels">
+<div class="reel" id="reel1">❔</div>
+<div class="reel" id="reel2">❔</div>
+<div class="reel" id="reel3">❔</div>
 </div>
 
-<img style="position: fixed; left: 0; top: 0; height: 100vh; width: auto;" src="http://assets.codepen.io/439000/slotreel.webp">
+<button onclick="spin()">SPIN</button>
+
+<p id="result"></p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
